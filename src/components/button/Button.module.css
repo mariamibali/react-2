@@ -1,0 +1,12 @@
+.deleteBtn {
+  background-color: rgb(228, 6, 6);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.deleteBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 2px black;
+}
